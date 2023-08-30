@@ -1,0 +1,44 @@
+$color-danger: rgb(0, 34, 225);
+$color-primary: #aaa;
+
+@mixin title-mixin {
+    color: $color-danger;
+}
+
+%title-share {
+    color: rgb(0, 34, 225);
+    font-size: 30px;
+    background-color: #aaa;
+}
+
+
+.title {
+    @include title-mixin();
+    @extend %title-share;
+    font-size: 30px;
+    background-color: $color-primary;
+    transition: all 1s ease;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.product-title {
+    @include title-mixin();
+    @extend %title-share;
+}
+
+.navbar {
+    li {
+        color: red;
+
+        a {
+            color: red;
+        }
+    }
+
+    &-txt {
+        color: red;
+    }
+}

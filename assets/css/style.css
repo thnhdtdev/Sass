@@ -1,0 +1,29 @@
+.product-title, .title {
+  color: rgb(0, 34, 225);
+  font-size: 30px;
+  background-color: #aaa;
+}
+
+.title {
+  color: rgb(0, 34, 225);
+  font-size: 30px;
+  background-color: #aaa;
+  transition: all 1s ease;
+}
+.title:hover {
+  color: red;
+}
+
+.product-title {
+  color: rgb(0, 34, 225);
+}
+
+.navbar li {
+  color: red;
+}
+.navbar li a {
+  color: red;
+}
+.navbar-txt {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
